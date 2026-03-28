@@ -219,6 +219,16 @@ https://raw.atomgit.com/mindspore/docs/raw/master/resource/release/release_list_
 
 If the download fails, check network connectivity and suggest the user try with a proxy or download manually from the release list.
 
+### Install Supplementary Dependencies
+
+After MindSpore is installed, install commonly needed dependencies that may be missing. Use the faster mirror (internal or Huawei Cloud, see Network and Mirror Configuration above) for these packages:
+
+```bash
+pip install decorator attrs ml-dtypes sympy cloudpickle tornado {DEPS_INDEX}
+```
+
+Where `{DEPS_INDEX}` is the mirror index determined earlier (internal, Huawei Cloud, or default PyPI).
+
 ## Step 6: Verify Installation
 
 ### Basic Verification (All Platforms)

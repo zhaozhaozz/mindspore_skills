@@ -251,7 +251,7 @@ Network problems are common when downloading large CANN packages (often 1-2 GB e
 
 ## Troubleshooting
 
-**Permission Issues**: The install path and all parent directories must have 755 permissions. If installing to `/root/Ascend`, the installer will fail because `/root` typically has 750 permissions. Use `/usr/local/Ascend` or a path under `/home` instead.
+**Permission Issues**: The install path and all parent directories must have 755 permissions. If installing to `/root/Ascend`, the installer will fail because `/root` typically has 750 permissions. Use `/home/Ascend` or another path under `/home` instead.
 
 **Version Compatibility**: All packages must use the same version.
 
